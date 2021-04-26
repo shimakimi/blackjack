@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blackjack</title>
+  <link rel="icon" href="トランプの無料素材12.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Black Jack</h1>
+  <div class="container">
+      <P>Dealer: <span id="com_sum"></span></P>
+      <table>
+          <tr id="com_card">
+          </tr>
+      </table>
+  </div>
+  <div>
+      <p>Result: <span id="result">----</span></p>
+  </div>
+  <div class="container">
+      <P>Player:  <span id="your_sum"></span></P>
+      <table>
+          <tr id="your_card">
+          </tr>
+      </table>
+  </div>
+  <div class="btn" id="reset"><p>Reset</p></div>
+  <div class="btn" id="hit"><p>Hit</p></div>
+  <div class="btn inactive" id="stand"><p>Stand</p></div>
+  <p>Hit - 手札を一枚引く<br />
+      Stand - 勝負する</p>
+  <script src="js/main.js"></script>
+</body>
+</html>
